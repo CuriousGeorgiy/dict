@@ -1,0 +1,20 @@
+---
+Checks: >
+  -*,
+  android-*,
+  bugprone-*,
+  cert-*,
+  clang-analyzer-*,
+  concurrency-*,
+  google-*,
+  hicpp-*,
+  misc-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  -clang-diagnostic-poison-system-directories,
+
+WarningsAsErrors: "*"
+
+HeaderFilterRegex: 'dict/.*\.h$"'
+FormatStyle: "file"
